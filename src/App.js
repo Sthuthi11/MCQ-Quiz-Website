@@ -6,6 +6,8 @@ import QuizPage from "./components/QuizPage";
 import Navbar from "./components/Navbar";
 import './App.css';
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function App() {
   return (
     <Router>
