@@ -18,6 +18,7 @@ export default function App() {
           <Route path="/subject/:subjectName" element={<UnitsPage />} />
           <Route path="/subject/:subjectName/unit/:unitName" element={<QuizPage />} />
         </Routes>
+        <Analytics />
       </>
     </Router>
   );
